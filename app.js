@@ -19,3 +19,39 @@ const bioData = `
 <p>Phone Number: ${phoneNumber}</p>
 `
 document.write(bioData)
+
+
+// create variables
+
+//var is a globel scope
+//var and let canbe reassigned
+var myName = 'Muhammad Hasnain'
+
+var myName = 'Hassan'
+
+console.log(myName);
+
+// let var and const all are function scope
+
+function func() {
+    let myAge = 25
+    console.log(myAge)
+}
+
+// block scope
+
+// Var is not a block scope
+
+var campus = 'Sir Adamje'
+{
+    console.log(campus);
+
+}
+
+// let amd const are block scope 
+// let and const cannot bo redeclared
+
+{
+    let newName = 'Anaintay'
+    console.log(newName);
+}
